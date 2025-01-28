@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato - Só Importado</title>
+    <title>Produto 4 - Só Importado</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
 
     <!-- Cabeçalho -->
     <header>
         <div class="logo">
-            <img src="img/logo.jpg" alt="Só Importado">
+            <img src="img/logo.jpg" alt="Só Importado" />
         </div>
         <nav>
             <ul>
@@ -25,21 +26,17 @@
         </nav>
     </header>
 
-    <!-- Formulário de Contato -->
-    <section class="contato">
-        <h2>Entre em Contato Conosco</h2>
-        <form action="#" method="POST">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-            
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
-            
-            <button type="submit" class="btn">Enviar Mensagem</button>
-        </form>
+    <!-- Detalhes do Produto -->
+    <section class="produto-detalhes">
+        <div class="produto-imagem">
+            <img src="img/tn roxo.jpg" alt="tn dragon purple"  height="250px" width="200px"/>
+        </div>
+        <div class="produto-info">
+            <h1>Produto 4</h1>
+            <p>R$498,90</p>
+            <p>Um produto com ótimo custo-benefício, ideal para quem busca um visual casual e confortável.</p>
+            <button class="btn add-to-cart" data-id="4" data-name="Produto 4" data-price="79.90">Adicionar ao Carrinho</button>
+        </div>
     </section>
 
     <!-- Rodapé -->
@@ -56,5 +53,6 @@
         </div>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
